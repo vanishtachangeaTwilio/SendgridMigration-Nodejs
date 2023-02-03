@@ -15,7 +15,9 @@ export  apiKeySrcTemplate="<sgKeySource>"
 export  apiKeyDestTemplate="<sgKeyDestination>"
 ```
 3. run following 
-```npm run migrate-templates
+```
+npm run migrate-templates
+
 ```
 
 
