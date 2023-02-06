@@ -1,5 +1,3 @@
-const http = require("http");
-const https = require("https");
 const axios = require("axios");
 
 const limit1 = 200;
