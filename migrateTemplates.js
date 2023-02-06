@@ -13,7 +13,7 @@ const getTemplates = async () => {
   let page_size = 2;
   let metadata = {};
   let next = false;
-  let url = "https://api.sendgrid.com/v3/templates?page_size=" + page_size;
+  let url = "https://api.sendgrid.com/v3/templates?generations=legacy,dynamic&page_size=" + page_size;
   do {
     let templatesObj = await doGetTemplatesRequest(url);
 
