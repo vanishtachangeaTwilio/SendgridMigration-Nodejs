@@ -33,7 +33,7 @@ npm run migrate-templates
 ```
 
 
-## Steps To Run MigreateSuppressions.js
+## Steps To Run MigrateSuppressions.js
 _This script gives an example of which APIs could be used to migrate suppressions (blocks, bounces, global unsubscribes, invalid, spam reports) from one account to another programmatically._
 > This is just an example which has not been fully optimised and tested. 
 
