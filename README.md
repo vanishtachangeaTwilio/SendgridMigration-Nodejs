@@ -3,7 +3,7 @@ This Node.js application allows you to execute a few scripts to migrate data fro
 Example of Data include: Suppressions and Templates. 
 The scripts use Sendgrid APIs to retrieve data from one account (source account) and then adding those data to another account (destination account). 
 
-Each script will execute some GET API Requests to retrieve some records, followed by POST Function which create new records with the data retrieved from the source account, in the destination function 
+Each script will execute some GET API Requests to retrieve some records, followed by POST API Requests which create new records with the data retrieved from the source account, into the destination account 
 
 # Prerequisite 
 You must have access to both Source and Destination Accounts so that you can create API Keys in each account to be used in the API Requests. 
