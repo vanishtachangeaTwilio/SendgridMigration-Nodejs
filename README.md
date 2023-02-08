@@ -49,6 +49,6 @@ npm run migrate-sup
 
 ## Limitations - Next Steps To do 
 * There is no code for migrating suppressions group. For that we need to:
- * Create suppression group 
- * Get the suppressions from previous group in old account 
- * Add those suppressions in the new group in new account. 
+    * Create suppression group 
+    * Get the suppressions from previous group in old account 
+    * Add those suppressions in the new group in new account. 
