@@ -1,7 +1,7 @@
 # Migration Scripts Overview 
-This Node.js application allows you to execute a few scripts to migrate data from one Sendgrid account to another Sendgrid. 
-Example of Data include: Suppressions and Templates. 
-The scripts use Sendgrid APIs to retrieve data from one account (source account) and then adding those data to another account (destination account). 
+This Node.js application allows you to execute a few scripts to migrate data from one Sendgrid account to another Sendgrid account. 
+Example of Data include: Suppressions and Templates. (as of February 2023)
+The scripts use Sendgrid APIs to retrieve data from one account (source account) and then recreating those data into another account (destination account). 
 
 Each script will execute some GET API Requests to retrieve some records, followed by POST API Requests which create new records with the data retrieved from the source account, into the destination account 
 
