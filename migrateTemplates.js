@@ -36,17 +36,25 @@ const getTemplates = async () => {
 
   console.log("Templates");
   console.log(allTemplates);
+
+  //const filteredTemplates = allTemplates.filter(t=>t.id == "d-03ba8fdaaaee454e8424bea2837e5f95");
+  console.log("filteredTemplates")
+
+  const filteredTemplates=allTemplates;
+
+  console.log(filteredTemplates)
   Promise.all(
-    allTemplates.map(async (temp) => {
+    filteredTemplates.map(async (temp) => {
       //Create New Template!!!
       //To Uncomment if you want to execute POST Request
-      /*
+      
       await setTimeout(10);
-      let postTemplateResponse = await doPostTemplateRequest(
+      
+      /*let postTemplateResponse = await doPostTemplateRequest(
         temp.name,
         "dynamic"
-      );
-*/
+      );*/
+
       let dataVersions = "";
 
       //Get List Of Versions
@@ -113,7 +121,7 @@ const doPostTemplateVersionRequest = async (
     html_content,
     generate_plain_content,
     subject,
-    editor,
+    editor
   };
   let res = await axios.post(url, payload, config);
   let data = res.data;
