@@ -23,8 +23,8 @@ _This script gives an example of which APIs could be used to migrate templates f
 1. Read the Code to uncomment the lines of code to execute the POST requests to create template and template versions 
 2. run the following in the terminal 
 ```
-export  apiKeySrcTemplate="<sgKeySource>"
-export  apiKeyDestTemplate="<sgKeyDestination>"
+export  apiKeySrcTemplate=<sgKeySource>
+export  apiKeyDestTemplate=<sgKeyDestination>
 ```
 3. run following 
 ```
@@ -39,8 +39,8 @@ _This script gives an example of which APIs could be used to migrate suppression
 
 1. run the following in the terminal 
 ```
-export  apiKeySrc="<sgKeySource>"
-export  apiKeyDest="<sgKeyDestination>"
+export  apiKeySrc=<sgKeySource>
+export  apiKeyDest=<sgKeyDestination>
 ```
 2. run following in the terminal 
 ```
