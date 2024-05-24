@@ -52,3 +52,25 @@ npm run migrate-sup
     * Create suppression group 
     * Get the suppressions from previous group in old account 
     * Add those suppressions in the new group in new account. 
+
+
+## Steps To Generate csv with dummy emails - Run generate-CSV-With-PseudoEmails
+
+```  
+chmod 700 generate-CSV-With-PseudoEmails.sh
+./generate-CSV-With-PseudoEmails.sh
+```
+
+## Steps To Run migrateSuppressionsFromCSV.js
+_This script gives an example of which APIs could be used to add emails from a csv into the global unsubscribe list using the following endpoint https://www.twilio.com/docs/sendgrid/api-reference/suppressions-global-suppressions/add-recipient-addresses-to-the-global-suppression-group 
+> This is just an example which has not been fully optimised and tested. 
+
+1. run the following in the terminal 
+```
+export  apiKeyDest=<sgKeyDestination>
+export csvFilePath=/<>/<>/pseudo_emails.csv
+```
+2. run following in the terminal 
+```
+npm run addemails-csv-to-globalsup
+```
